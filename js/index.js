@@ -44,14 +44,19 @@ let arr = [hacker1, hacker2];
 for (let j = 0; j < arr.length; j++) {
   if (hacker1 < hacker2) {
     console.log("The driver's name goes first.");
+    break;
   } else if (hacker1 > hacker2) {
     console.log("Yo, the navigator goes first definitely.");
+    break;
   } else {
     console.log("What?! You both have the same name?");
+    break;
   }
-} //Esto me da dos veces el resultado en la consola
+} 
 
 //Segundo método:
+
+/*
 
 for (let j = 0; j < hacker1[0]; j++) {
   for (let z = 0; z < hacker2.length; z++) {
@@ -63,4 +68,5 @@ for (let j = 0; j < hacker1[0]; j++) {
       console.log("What?! You both have the same name?");
     }
   }
-} // Esto me da 30 veces el resultado en la consola.
+} // Esto me da 30 veces el resultado en la consola. */
+ 
