@@ -39,6 +39,8 @@ console.log(capitalHacker2);
 
 let arr = [hacker1, hacker2];
 
+//Primer método:
+
 for (let j = 0; j < arr.length; j++) {
   if (hacker1 < hacker2) {
     console.log("The driver's name goes first.");
@@ -48,6 +50,8 @@ for (let j = 0; j < arr.length; j++) {
     console.log("What?! You both have the same name?");
   }
 } //Esto me da dos veces el resultado en la consola
+
+//Segundo método:
 
 for (let j = 0; j < hacker1[0]; j++) {
   for (let z = 0; z < hacker2.length; z++) {
